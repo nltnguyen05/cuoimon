@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+.exo-2{
+  font-family: "Exo 2", sans-serif;
+	font-optical-sizing: auto;
+  font-style: normal
+}
+body{
+	font-family: "Exo 2", sans-serif; font-size: 12px; color: #1F1B1B; margin: 0
+}
+header{
+	height: 60px;width: 100%
+}
+
+.logo a:hover{
+}
+.logo{
+	 padding-top: 15px
+}
+.menu{
+	padding-top: 5px; margin: auto; padding: center;
+}
+.menu ul{
+	margin: 0;padding: 0; list-style: none; display: flex
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; font-size: 17px; color: #464646; border-radius: 20px
+}
+.menu ul li a:hover{
+background-color: darkred;color: white
+}
+.icon{
+	padding-top: 10px
+}
+.ml-10{
+	margin-left: 10px
+}
+banner{
+	width: 100%;min-height: 300px
+}
+main{
+	width: 100%; min-height: 500px
+}
+#feature{
+	width: 100%;min-height: 500px;background-image: url("../images/bg2.png");background-repeat:no-repeat;background-size: cover;background-position: bottom center
+}
+.gach-chan{
+	border-bottom: 3px solid darkred
+}
+.pt-30{
+	padding-top: 40px
+}
+.text-do{
+	color: darkred
+}
+.vien-trang{
+	border: 1px solid white;text-align: center;padding: 20px
+}
+.vien-trang a{
+	text-decoration: none;color: darkred;cursor: pointer
+}
+.vien-trang a:hover{
+	color: white
+}
+
+.banner{ 
+	width: 100%;min-height: 700px; z-index: 100
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center top
+}
+.shadow{
+	min-height: 200px;border: 1px solid gray;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+
+.caption{
+	width: 30%; ; position: absolute; right: 35%;top: 40%; color: white; text-align: center
+}
+.vang{
+	color: #F0DD2E
+}
+.box{
+	width: 80px; height: 40px; border: 1px solid; border-radius: 10px
+}
+
+img {
+width: 100px; kheight: auto;
+}
+.icon1{
+	padding-right: 150px
+}
+.icon1 img{
+  width: 30px;
+  height: 20px;
+  object-fit: scale-down;
+ }
+
+
+.vien{
+	border: 1px solid darkred; padding: 10px; border-radius: 5px; width: 100%; position: relative; overflow: hidden
+}
+
+.icon{
+	width: 80%;height: 45px;position: absolute;left: 10%; top:-15%; display: flex; justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width: 45px; height: 45px; background-color: darkred; border-radius: 50%;display: flex; justify-content: center; align-items: center; text-decoration: none; color: white
+}
+.icon a:hover{
+	background-color: gray;color: darkred
+}
+.vien:hover .icon{
+	top: 50%;
+}
+.banner2{
+	position: absolute;
+}
+
+
+
